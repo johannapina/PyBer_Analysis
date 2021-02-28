@@ -16,10 +16,7 @@ Additionally, we compared the fare totals on a weekly basis from January through
 ![total_fare_by_type.png](Resources/total_fare_by_type.png)
 
 ## Summary
-
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
-
-- In order to make rides and fares more equitable to both riders and drivers across city types, the following changes are recommended:
--- Increase the number of drivers in Rural and Suburban areas by offering an incentive to drivers in those areas.
--- Develop and implement a ride sharing protocol to allow drivers tp pick up multiple riders in rural areas that are able to share the cost of the ride to decrease the average cost per ride.
--- Provide an upper limit on average fares per ride to keep fares within a range, particularly for Rural areas. 
+In order to make rides and fares more equitable to both riders and drivers across city types, the following changes are recommended:
+- Increase the number of drivers in Rural and Suburban areas by offering an incentive to drivers in those areas.
+- Develop and implement a ride sharing protocol to allow drivers tp pick up multiple riders in rural areas that are able to share the cost of the ride to decrease the average cost per ride.
+- Provide an upper limit on average fares per ride to keep fares within a range, particularly for Rural areas. 
