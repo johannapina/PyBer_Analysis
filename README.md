@@ -2,6 +2,7 @@
 
 ## Overview of the analysis:
 To detect trends, correlations and outliers we used the [city data](Resources/city_data.csv) and [ride_data](Resources/ride_data.csv) to create a riding summary by city type (Urban, Suburban, Rural). The summary compares number of rides, number of drivers, fares, as well as averages for fares and drivers.
+
 ![pyber_summary.png](Resources/pyber_summary.png) 
 
 Additionally, we compared the fare totals on a weekly basis from January through April 2019 for each city type. 
