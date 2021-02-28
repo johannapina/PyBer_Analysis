@@ -1,34 +1,25 @@
 # PyBer_Analysis
 
 ## Overview of the analysis:
-
-The purpose of the new analysis is well defined. (3 pt)
-
-We used the [city data](Resources/city_data.csv) and [ride_data](Resources/ride_data.csv) to create a ride sharing summary by city type (Urban, Suburban, Rural). The summary compares number of rides, number of drivers, fares, as well as averages for fares and drivers.
+We used the [city data](Resources/city_data.csv) and [ride_data](Resources/ride_data.csv) to create a riding summary by city type (Urban, Suburban, Rural). The summary compares number of rides, number of drivers, fares, as well as averages for fares and drivers.
 ![pyber_summary.png](Resources/pyber_summary.png) 
 
+Additionally, we compared the fare totals on a weekly basis from January through April 2019 for each city type. 
+
 ## Results
-
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
-
-- Schools with less students (smaller than 1000) performed signifcantly higher on combined percentages of math and reading.
-- Charter schools scored signifantly higher on overall passing percentages than District schools.
-- Schools with higher spending budget per student had lower overall passing percentages.
-- After removing the 9th grade scores from Thomas High School, the reading, math and overall scores of that school significantly increased. 
-- Reading scores ranged from 80% to 84%.
-- Math scores ranged from 76% to 85%.
-- There was no significant changes for reading, math and overall combined scores across grade levels for each school. 
-![changes_in_scores_groupedBy_reading_grade.png](Resources/changes_in_scores_groupedBy_reading_grade.png) 
-![changes_in_scores_groupedBy_math_grade.png](Resources/changes_in_scores_groupedBy_math_grade.png)
+- Urban city rides had 2.6 times the number of Suburban rides and 13 times the number of Rural rides.
+- Urban cities have a significantly higher number of drivers. It has 30 times the number of drivers in Rural cities and approximately 5 times the number of drivers in Suburban cities.
+- Rural cities have a higher average fare per ride of over 3 times the total in Urban cities and about 1.5 the total of Suburban cities. 
+- The average fare per ride for Urban cities was over 9 times that or Rural cities and over twice the average fare per ride in Suburban cities. 
+- Between February and March, all city types experienced a surge in fares.
+- Between January and February all city types experienced a decrease in fare rides. 
+![total_fare_by_type.png](Resources/total_fare_by_type.png)
 
 ## Summary
 
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
 
-- After replacing the math and reading scores for Thomas High School, that school's reading, math and overall scores increased from the 60's to above 80's.
-
-![unchanged_THS_data.png](Resources/unchanged_THS_data.png) 
-![changed_THS_data.png](Resources/changed_THS_data.png) 
-- When comparing data with and without the 9th grade scores for Thomas High School in Charter and District performance, the data did not change. 
-- Student count decreased by 461.
-- Overall passing percentage increased from 65.17 to 65.95.
+- In order to make rides and fares more equitable to both riders and drivers across city types, the following changes are recommended:
+-- Increase the number of drivers in Rural and Suburban areas by offering an incentive to drivers in those areas.
+-- Develop and implement a ride sharing protocol to allow drivers tp pick up multiple riders in rural areas that are able to share the cost of the ride to decrease the average cost per ride.
+-- Provide an upper limit on average fares per ride to keep fares within a range, particularly for Rural areas. 
